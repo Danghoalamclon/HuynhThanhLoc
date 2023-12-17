@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dangki.css">
+    <title>Đăng ký</title>
+   
+</head>
+<body>
+    <header>
+        <div class="box">
+            <div class="logo">
+                BIBI SHOP
+            </div>
+            <div class="menu">
+                <ul>
+                    <a href="index.html"><li >Trang Chủ</li></a>
+                    <a href="dachang.html"><li>  Đặt hàng</li></a>
+                    <a href="lienhe.html"><li>  Liên hệ</li></a>
+                    <a href="hotro.html"><li>Hỗ trợ</li></a>
+                </ul>
+            </div>
+            <div class="shop">
+                <i class="fa-solid fa-basket-shopping"></i>
+            </div>
+        </div>
+    </header>
+    <img src="image/giphy (3).gif" alt="Chuyển động" class="corner-image">
+
+    <div class="container">
+        <form class="form-contact" action="" name="contact" method="">
+            <div class="Form_header">
+                <h1 class="Form__Title Heading u-h1">Register</h1>
+                <p class="Form__Legend">Điền thông tin phía dưới</p>
+            </div>
+            <div class="Form_FloatingLabel">
+                <label class="">Name</label>
+           </div>
+            <div class="Form__Item">
+                <input type="Name" class="Form__Input" name="customer[Name]" required="required"
+                    placeholder="Name" aria-label="Name" autofocus>
+               
+            </div>
+            <div class="Form_FloatingLabel">
+                <label class="">Surname</label>
+           </div>
+            <div class="Form__Item">
+                <input type="Surname" class="Form__Input" name="customer[Surname]" required="required"
+                    placeholder="Surname" aria-label="Surname" autofocus>
+               
+            </div>
+            <div class="Form_FloatingLabel">
+                <label class="">Email</label>
+           </div>
+            <div class="Form__Item">
+                <input type="email" class="Form__Input" name="customer[email]" required="required"
+                    placeholder="Email" aria-label="Email" autofocus>
+               
+            </div>
+            <div class="Form_FloatingLabel">
+                <label class="">Password</label>
+           </div>
+            <div class="Form__Item">
+                <input type="Password" class="Form__Input" name="customer[password]" required="required"
+                    placeholder="Password" aria-label="Password" autofocus>
+               
+            </div>
+           
+            <div class="button">
+                <button type="submit" class="Form__Submit">TẠO TÀI KHOẢN</button>
+            </div>
+            
+
+        </form>
+
+        
+
+    <script>
+        function register() {
+            var username = document.getElementById("Name").value;
+            var username = document.getElementById("Surname").value;
+            var email = document.getElementById("Email").value;
+            var password = document.getElementById("Password").value;
+
+            alert("Đăng ký thành công!");
+
+            // Thêm class "moved" để kích hoạt hiệu ứng di chuyển
+            document.querySelector('.corner-image').classList.add('moved');
+        }
+    </script>
+</body>
+</html>

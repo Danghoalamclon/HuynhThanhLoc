@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dn.css">
+    <title>Đăng nhập</title>
+   
+</head>
+<body>
+    <header>
+        <div class="box">
+            <div class="logo">
+                BIBI SHOP
+            </div>
+            <div class="menu">
+                <ul>
+                    <a href="index.html"><li >Trang Chủ</li></a>
+                    <a href="dachang.html"><li>  Đặt hàng</li></a>
+                    <a href="lienhe.html"><li>  Liên Hệ</li></a>
+                    <a href="hotro.html"><li>Hỗ trợ</li></a>
+                </ul>
+            </div>
+            <div class="shop">
+                <i class="fa-solid fa-basket-shopping"></i>
+            </div>
+        </div>
+    </header>
+    <img src="image/giphy (3).gif" alt="Chuyển động" class="corner-image">
+
+    <div class="container">
+        <!-- <form id="registrationForm">
+            <label for="username">Tên đăng nhập:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Mật khẩu:</label>
+            <input type="password" id="password" name="password" required>
+
+
+            <button type="button" onclick="register()">Đăng nhập</button>
+        </form> -->
+        <form class="form-contact" action="" name="contact" method="">
+            <div class="Form_header">
+                <h1 class="Form__Title Heading u-h1">ĐĂNG NHẬP</h1>
+                <p class="Form__Legend">Nhập e-mail và password</p>
+            </div>
+            <div class="Form_FloatingLabel">
+                <label class="">Email</label>
+           </div>
+            <div class="Form__Item">
+                <input type="email" class="Form__Input" name="customer[email]" required="required"
+                    placeholder="Email" aria-label="Email" autofocus>
+               
+            </div>
+           
+
+
+            <div class="Form_FloatingLabel">
+                <label class="">Password</label>
+           </div>
+            <div class="Form__Item">
+                <input type="password" class="Form__Input" name="customer[password]" required="required"
+                    placeholder="Password" aria-label="Password">
+                
+                
+            </div>
+            <div class="Form_ItemHelp">
+                <a href="aForgot password.html" style="text-decoration: none;list-style: none;color: rgb(137, 129, 129);">Quên mật khẩu?</a>
+            </div>
+            <div class="button">
+                <button type="submit" class="Form__Submit">ĐĂNG NHẬP</button>
+            </div>
+            <div class="Form__Hint Form__Hint--center">
+                <span class="Text--subdued">Không có tài khoản?</span>
+                <a href="dangki.html" class="Link Link--secondary">Tạo tài khoản</a>
+            </div>
+
+        </form>
+    </div>
+
+    <script>
+        function register() {
+            var username = document.getElementById("username").value;
+            var email = document.getElementById("email").value;
+              var password = document.getElementById("password").value;
+
+            alert("Đã đăng nhập  thành công!");
+
+            // Thêm class "moved" để kích hoạt hiệu ứng di chuyển
+            document.querySelector('.corner-image').classList.add('moved');
+        }
+    </script>
+</body>
+</html>

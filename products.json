@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "name":" Thông thấp (12cm)",
+        "price": 100,
+        "image": "image/hinh2.jpg"
+    },
+    {
+        "id": 2,
+        "name":" Thông cao (25cm)",
+        "price": 200,
+        "image": "image/hinh3.jpg"
+    },
+    {
+        "id": 3,
+        "name":" Thông vừa (20cm)",
+        "price": 150,
+        "image": "image/hinh4.jpg"
+    },
+    {
+        "id": 4,
+        "name":" Thông thấp (12cm)",
+        "price": 100,
+        "image": "image/hinh5.jpg"
+    },
+    {
+        "id": 5,
+        "name":" Thông thấp (12cm)",
+        "price": 100,
+        "image": "image/hinh6.jpg"
+    },
+    {
+        "id": 6,
+        "name":" Combo 2 cao 2 thấp",
+        "price": 450,
+        "image": "image/hinh7.jpg"
+    },
+    {
+        "id": 7,
+        "name":" Combo cập đôi",
+        "price": 350,
+        "image": "image/hinh1.jpg"
+    },
+    {
+        "id": 8,
+        "name":" Dây đèn cây thông",
+        "price": 20,
+        "image": "image/hinh8.jpg"
+    }
+
+]
